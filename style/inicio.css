@@ -1,0 +1,297 @@
+.container {
+    max-width: 1440px;
+    display: flex;
+}
+
+#section_1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-bottom: 25px;
+    margin: 5%;
+}
+
+#image_1 {
+    margin-bottom: 25px;
+}
+
+#section_1 h5 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+#section_1 h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    width: 415px;
+    margin-bottom: 30px;
+}
+
+#text_1 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    display: block;
+    color: #FF4081;
+    border: 3px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 10px;
+    width: 268px;
+}
+
+@media only screen and (max-width: 769px) {
+    #image_1 {
+        background-image: url(ilustra-banner.png);
+        background-size: contain;
+        height: 326px;
+        width: 320px;
+    }
+
+    #section_1 {
+        margin: 50px auto;
+    }
+
+    #section_1 h1 {
+        font-size: 45px;
+    }
+
+    #section_1 h1,
+    #section_1 h5 {
+        width: 363px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #image_1 {
+        background-image: url(ilustra-banner.png);
+    }
+
+    #section_1 h1,
+    #section_1 h5 {
+        width: 284px;
+    }
+
+    #section_1 h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    #section_1 h5,
+    #section_1 a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+main #section_2 * {
+    margin: 0;
+    text-decoration: none;
+}
+
+#section_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background: #F7F7F7;
+}
+
+#section_2 article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section_2 article h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin: 45px 0 23px 0;
+}
+
+#section_2 article p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    width: 288px;
+    margin-bottom: 26px;
+}
+
+#section_2 article a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF4081;
+    border-radius: 62px;
+    width: 205px;
+    padding: 14px;
+    margin-bottom: 100px;
+    text-transform: lowercase;
+}
+
+#section_2 article:nth-child(1) div {
+    background-image: url(ilustra-investimento.png);
+    background-size: cover;
+    height: 270px;
+    width: 288px;
+}
+
+#section_2 article:nth-child(2) div {
+    background-image: url(ilustra-poupando.png);
+    background-size: cover;
+    height: 270px;
+    width: 288px;
+}
+
+#section_2 article:nth-child(3) div {
+    background-image: url(ilustra-independencia.png);
+    background-size: cover;
+    height: 270px;
+    width: 288px;
+}
+
+#section_3 {
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#section_3 div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#section_3 h5 {
+    display: block;
+    margin-bottom: 78px;
+    width: 100%;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+
+    color: #009688;
+}
+
+.essays {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.essays h6 {
+    display: flex;
+}
+
+.essays h6 img {
+    padding: 0 15px 30px 0;
+}
+
+.essays h6>p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.essays h6 p span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#section_4 {
+    background: #E5E5E5;
+    display: flex;
+    flex-flow: column;
+}
+
+#section_4 h2 {
+    color: #009688;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 43px;
+    margin: 91px 0 73px;
+}
+
+#section_4 #items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 135px;
+}
+
+#section_4 .post img {
+    max-height: 193px;
+    margin: 0 0 11px;
+}
+
+#section_4 .post h3 {
+    margin: 0;
+}
+
+#section_4 .post h3 a {
+    text-decoration: none;
+    color: #009688;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+#section_4 .post p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    max-width: 319px;
+}
+
+#section_4 .link-blog {
+    text-align: center;
+    margin: 0 0 73px;
+}
+
+#section_4 .link-blog a {
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 10px 41px;
+    text-decoration: none;
+}

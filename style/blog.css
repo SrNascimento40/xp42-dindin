@@ -1,0 +1,146 @@
+main .container {
+  flex-direction: column;
+  width: auto;
+  margin: 5% 5% 5% 5%
+}
+
+main .container section {
+  align-self: flex-start;
+  margin: 0 0 198px 0;
+  padding: 75px 45% 0 68px;
+  background: url(ilustra-blog.png) top right no-repeat;
+  height: 405px;
+  flex-grow: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+main section h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 54px;
+
+  color: #009688;
+}
+
+main section h1,
+main section p {
+  width: 460px;
+}
+
+main section p {
+  width: 460px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+
+.post {
+  width: 518px;
+}
+
+.titulo_post {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+
+  color: #FF4081;
+  margin: 19px 0;
+}
+
+.resumo_post {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1090px) {
+  main .container {
+    width: auto;
+    margin: 48px auto 170px auto;
+  }
+
+  main .container section {
+    margin: 0 0 150px 0;
+    padding: 75px 0 0 0;
+    background: none;
+    height: auto;
+    align-self: center;
+  }
+
+  .posts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  main .container {
+    padding: 0px 20px;
+    align-items: center;
+    margin-bottom: 75px;
+  }
+
+  main .container section {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  main section h1 {
+    font-size: 40px;
+    width: auto;
+  }
+
+  .titulo_post {
+    font-size: 25px;
+    width: auto;
+  }
+
+  .resumo_post {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  main section p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  .imagem_post {
+    width: 300px
+  }
+
+  .post {
+    width: auto;
+    margin: 0;
+  }
+
+  .posts {
+    row-gap: 50px;
+  }
+}

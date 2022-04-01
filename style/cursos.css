@@ -1,0 +1,151 @@
+main .container {
+  flex-direction: column;
+  width: auto;
+  align-items: flex-start;
+  padding: 198px 114px 200px 82px;
+}
+
+main h1 {
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  color: #FF4081;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #FF4081;
+}
+
+.titulo span {
+  font-weight: 400;
+  font-size: 20px;
+  color: #555555;
+}
+
+.titulo {
+  margin-bottom: 95px;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin-bottom: 100px;
+}
+
+main section {
+  margin: 0 0 68px 30px;
+}
+
+main h2,
+main a,
+main p {
+  margin-left: 433px;
+}
+
+main section p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+main section a {
+  display: flex;
+  width: 233px;
+  height: 51px;
+  left: 545px;
+  top: 641px;
+  background: #419488;
+  border-radius: 62px;
+  justify-content: center;
+  align-items: center;
+}
+
+main section span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#investimento {
+  background: url(ilustra-investimento.png) center left no-repeat;
+  height: 381px;
+  padding-top: 15px;
+}
+
+#poupando {
+  background: url(ilustra-poupando.png) center left no-repeat;
+  height: 385px;
+}
+
+#independencia {
+  background: url(ilustra-independencia.png) center left no-repeat;
+  height: 500px;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1060px) {
+
+
+  #investimento,
+  #poupando,
+  #independencia {
+    background: none;
+    height: auto;
+    padding-top: 0;
+  }
+
+  main h2,
+  main a,
+  main p {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+
+  main section {
+    margin: 0 0 68px 0px;
+  }
+
+  main .container {
+    padding: 100px 20px;
+    align-items: center;
+  }
+
+  .titulo {
+    margin-bottom: 50px;
+    align-self: flex-start;
+  }
+
+  .cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  main h1 {
+    font-size: 40px;
+  }
+
+  main h2 {
+    font-size: 25px;
+  }
+
+  main section p {
+    font-size: 15px;
+  }
+
+  .titulo span {
+    font-size: 17px;
+  }
+}
